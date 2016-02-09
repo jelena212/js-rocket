@@ -1,3 +1,12 @@
+var coolStuff = function () {
+	var currentClassName = document.getElementById('cool').className;
+
+	if(currentClassName == 'cool'){
+		document.getElementById('cool').className = 'cool red';
+	} else {
+		document.getElementById('cool').className = 'cool';
+	}
+}
 var car = {
 		make: 'VW',
 		type: 'Polo',
@@ -21,3 +30,12 @@ var car = {
 			}
 		}
 	};
+var startCountDown = function () {
+	var currentClassName = document.getElementById('rocket').className;
+
+	if(currentClassName == 'rocket'){
+		document.getElementById('rocket').className = 'rocket flying';
+	} else {
+		document.getElementById('rocket').className = 'rocket';
+	}
+}

@@ -1,3 +1,16 @@
 body{
 	background-color: gray;
 }
+.cool{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	-webkit-transition: background-color 1s ease;
+	   -moz-transition: background-color 1s ease;
+	    -ms-transition: background-color 1s ease;
+	     -o-transition: background-color 1s ease;
+	        transition: background-color 1s ease;
+}
+.cool.red{
+	background-color: red;
+}
