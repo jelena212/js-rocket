@@ -22,7 +22,7 @@ var changeState = function(state){
 			if (countdownNumber <=0) {
 				changeState(3);
 			}
-		}, 500)
+		}, 500);
 	} else if (state == 3) {
 		var success = setTimeout(function () {
 			 var randomNumeber = Math.round(Math.random()*10);
@@ -36,5 +36,5 @@ var changeState = function(state){
 	} else {
 		document.getElementById('nervous').className = 'nervous';
 		document.getElementById('cant-wait').className = 'cant-wait';
-	}
+	};
 }
